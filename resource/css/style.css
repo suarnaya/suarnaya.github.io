@@ -5,6 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #525252;
 }
 
 .container {
@@ -113,6 +114,29 @@ ul li a {
 
 .container .social-media ul li a:hover {
     color: #989898;
+}
+
+.project-box {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    align-items: center;
+    background: #F5F5F5;
+}
+
+.project-box h2 {
+    font-weight: 300;
+}
+.content-right .description {
+    margin: 10px auto;
+}
+
+.project-box a {
+    color: #773188;
+}
+.project-box a:hover {
+    color: #c28ad0;
 }
 
 footer {

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>latihan slicing</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="container nav-wrapper">
+          <a href="#" class="logo">
+            <div class="bg-logo"><img src="assets/img/M.svg" alt="M"/></div><span>The malaka</span>
+          </a>
+          <div class="menu-wrapper">
+            <ul class="menu">
+              <li class="menu-item"><a href="#" class="menu-link active">Top</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">For Everyone</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Benefit</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Preview</a></li>
+              <li class="menu-item"><a href="#" class="menu-link">Penulis</a></li>
+            </ul>
+            <a href="#" class="btn-download">Download</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+      <div class="container home-wrapper">
+        <div class="content-left">
+          <h1 class="heading">Sebuah framework CSS untuk developer yang memiliki phobia terhadap CSS</h1>
+         <p class="subheading">Buku ini akan mengajarkan kamu konsep utility-first pada CSS dan diakhiri dengan membangun sebuah website yang responsive dengan Tailwind CSS.</p>
+         <div class="sale-wrapper">
+          <div class="box-beli-sekarang">
+            <p class="beli-sekarang">Beli sekarang</p>
+            <img src="assets/img/arrow-right-circle.svg" alt="arrow">
+          </div>
+          <div class="box-sudah-terjual">
+            <img src="assets/img/download-logo.svg" alt="download">
+            <div class="sudah-terjual-wrapper">
+              <h3 class="sudah-terjual">SUDAH TERJUAL</h3>
+              <h3 class="angka-sudah-terjual">501,234+</h3>
+            </div>
+          </div>
+         </div>
+         <div class="teknologi-yang-digunakan">
+          <div class="rectangle-kecil"></div>
+          <h4>TEKNOLOGI YANG DIGUNAKAN</h4>
+        </div>
+        <img class="logo-tech" src="assets/img/grup gambar.svg" alt="grup logo gambar">
+        </div>
+         <div class="content-right">
+          <img src="assets/img/ebook.png" alt="ebook">
+         </div>
+      </div>
+    </section>
+    <!-- section 1 -->
+    <section class="about-book" id="about-book">
+      <div class="container book-about-wrapper">
+        <div class="content-top">
+          <div class="box-for-what">
+            <div class="for-what">
+              <div class="rec-small-blue"></div>
+              <h6>BUKU INI UNTUK SIAPA</h6>
+            </div>
+            <h2>Buku yang cocok dibaca untuk front-end dan back-end, bahkan UI designer!</h2>
+          </div>
+          <p class="subsection">Buku ini bukan hanya untuk front-end developer yang ingin meningkatkan skill, buku ini juga cocok untuk back-end developer dan UI designer agar dapat menulis style tanpa harus menulis kode CSS dan tanpa mengandalkan front-end developer!</p>
+        </div>
+        <div class="content-bottom">
+          <div class="box-img">
+            <div class="img-section1">
+              <img src="assets/img/Rectangle 11.png">
+            </div>
+            <h5 class="head-section">Utility-First Framework</h5>
+            <p class="subsection">
+              Tailwind hadir dengan konsep utility-first. Utility-first artinya banyak class-class kecil yang bisa digabung untuk menjadi sebuah UI.
+            </p>
+          </div>
+          <div class="box-img">
+            <div class="img-section1">
+              <img src="assets/img/Rectangle 11-1.png">
+            </div>
+            <h5 class="head-section">Tailwind JIT Engine</h5>
+            <p class="subsection">
+              JIT engine akan men-generate utility-class yang kita gunakan saja. Ini akan membuat pengalaman pengembangan semakin baik.
+            </p>
+          </div><div class="box-img">
+            <div class="img-section1">
+              <img src="assets/img/Rectangle 11-2.png">
+            </div>
+            <h5 class="head-section">Unopinionated-Framework</h5>
+            <p class="subsection">
+              Tailwind tidak memiliki pra-desain komponen apapun, ini membuat desain website yang kita buat menjadi unik.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 2 -->
+    <section class="about-me" id="about-me">
+      <div class="container abt-me-wrapper">
+        <div class="content-left">
+          <div class="for-what">
+            <div class="rec-small-blue"></div>
+            <h6>BUKU INI UNTUK SIAPA</h6>
+          </div>
+          <h3 class="kata-pengantar">Kata Pengantar Dari Penulis Buku</h3>
+          <div class="white-line"></div>
+          <div class="profile-pict">
+            <img src="assets/img/pp.png" alt="pp">
+            <div class="profile-name">
+              <h6 class="name">Muhamad Nauval Azhar</h6>
+              <p class="name-id">@mhdnauvalazhar</p>
+            </div>
+          </div>
+        </div>
+        <div class="content-right">
+          <p class="sub-text-about-me">"Tailwind sangat memungkinkan kamu untuk membangun sebuah desain website yang unik dan tanpa kamu perlu menulis kode CSS sedikitpun. Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang lebih lama ketika membangun sebuah website dengan utility-first framework ketimbang dengan framework UIkit. Ya, benar. Karena kamu harus memikirkan desain dan mengimplementasikan desain tersebut dari awal sendiri. Namun, kamu perlu ingat manfaat-manfaat yang diberikan oleh utility-first framework, sehingga kamu dapat mempertimbangkannya. Dalam buku ini, kita akan mempelajari framework Tailwind CSS. Mulai dari konsep, workflow, hingga membuat sebuah website responsive dengan TailwindCSS. Buku ini tidak untuk semua orang, setidaknya kamu memahami cara mengoperasikan komputer, memahami HTML, memahami CSS, atau bisa dibilang kamu sudah pernah membangun website sebelumnya dan ingin mempelajari hal baru untuk meningkatkan skill."</p>
+        </div>
+      </div>
+    </section>
+    <!-- section 3 -->
+    <section class="benefit">
+      <div class="container benefit-wrapper">
+        <div class="content-left">
+          <div class="for-what">
+            <div class="rec-small-blue"></div>
+            <h6>MANFAAT BUKU</h6>
+          </div>
+          <h2>Manfaat yang kamu dapatkan ketika membeli buku Tailwind CSS ini</h2>
+          <p class="subheading">"Buku itu seperti cermin: kalau yang berkaca padanya adalah seorang yang bodoh, engkau tak bisa berharap yang terpantul adalah seorang yang jenius." - J.K Rowling</p>
+          <div class="box-list">
+            <img src="assets/img/check.svg" alt="check">
+            <p>Buku ini cocok untuk seorang yang ingin memperdalam front-end development agar tidak hanya sekadar Bootstrap</p>
+          </div>
+          <div class="box-list">
+            <img src="assets/img/check.svg" alt="check">
+            <p>Buku ini ditulis berdasarkan dari dokumentasi Tailwind CSS langsung, agar meminimalisir terjadinya miskonsepsi</p>
+          </div>
+          <div class="box-list">
+            <img src="assets/img/check.svg" alt="check">
+            <p>Sangat ramah untuk back-end developer yang phobia terhadap CSS dan mudah dipahami bagi UI designer</p>
+          </div>
+          <div class="box-list">
+            <img src="assets/img/check.svg" alt="check">
+            <p>Studi kasus membangun sebuah website responsive dengan Tailwind CSS tanpa ngoding CSS</p>
+          </div>
+        </div>
+        <div class="content-right">
+          <img class="small-ebook" src="assets/img/ebook-small.png" alt="ebook-small">
+          <div class="data-box">
+            <div class="small-box">
+              <h2>19</h2>
+              <p>Jumlah chapter</p>
+            </div>
+            <div class="w-line"></div>
+            <div class="small-box">
+              <h2>253</h2>
+              <p>Jumlah halaman</p>
+            </div>
+            <div class="w-line"></div>
+            <div class="small-box">
+              <h2>60</h2>
+              <p>Hari menulis</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 4 -->
+    <section class="beside-that">
+      <div class="container beside-that-wrapper">
+        <div class="content-left">
+          <div class="img-section4">
+            <img src="assets/img/webview.png" alt="webview">
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="for-what">
+            <div class="rec-small-blue"></div>
+            <h6>SELAIN ITU</h6>
+          </div>
+          <h2>Buku dengan studi kasus nyata, juga komunitas yang ramah</h2>
+          <p class="subheading">Buku ini diakhiri dengan membangun website yang responsive dengan Tailwind. Selain itu kamu juga kamu dapat bergabung ke komunitas untuk bertanya ketika mengalami kesulitan.</p>
+          <div class="box-beside-that">
+            <img class="icon-b-that" src="assets/img/layout.svg">
+            <div class="text-beside-that">
+              <h5>Live Demo Project</h5>
+              <p>Lihat live demo project yang akan kamu buat di akhir buku ini.</p>
+            </div>
+            <img src="assets/img/arrow-blue.svg">
+          </div>
+          <div class="box-beside-that">
+            <img class="icon-b-that" src="assets/img/message-square.svg">
+            <div class="text-beside-that">
+              <h5>Dukungan Komunitas</h5>
+              <p>Sebuah server Discord berisi teman-teman yang akan membantu kamu.</p>
+            </div>
+            <img src="assets/img/arrow-blue.svg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 5 -->
+    <section class="preview">
+      <div class="container preview-wrapper">
+        <div class="box-preview">PRATINJAU</div>
+        <h2>Sebelum membeli, kamu dapat melihat beberapa halaman pratinjau isi di dalam buku ini</h2>
+        <p>Klik pada gambar halaman di sebelah kanan buku untuk melihat lebih detail halaman buku tersebut dan membaca isinya.</p>
+      </div>
+    </section>
+    <!-- absolute-image -->
+    <div class="book-absolute">
+      <img class="buku" src="assets/img/ebook-small-vertical.png" alt="ebook">
+      <img class="blur-paper" src="assets/img/paper-blur.png" alt="paper-blur">
+      <img class="blue-arrow" src="assets/img/arrow-blue-full.svg">
+    </div>
+    <p class="info-halaman">Halaman 1 dari 257</p>
+    <!-- section 6 -->
+    <section class="price">
+      <div class="container price-wrapper">
+        <div class="box-price">HARGA BUKU</div>
+        <h2 class="heading">Kamu dapat membeli buku fisik atau buku elektronik untuk dibaca di perangkat kamu</h2>
+        <p class="subheading">Dilarang memperjualbelikan atau memperbanyak tanpa seizin penulis. Hak cipta dilindungi undang-undang.</p>
+      </div>
+      <div class="container box-list-price">
+        <div class="list-price">
+          <h5>Buku Digital</h5>
+          <h2>Rp100.000</h2>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Buku lengkap</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Akses secara digital</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/red-close.svg">
+            <p>Buku fisik</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Mendapat pembaruan</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Konsultasi</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Dapat diunduh</p>
+          </div>
+          <div class="list-beli">Beli Sekarang</div>
+        </div>
+        <div class="list-price">
+          <h5>Buku Fisik</h5>
+          <h2>Rp185.000</h2>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Buku lengkap</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/red-close.svg">
+            <p>Akses secara digital</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Buku fisik</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/red-close.svg">
+            <p>Mendapat pembaruan</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Konsultasi</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Dapat diunduh</p>
+          </div>
+          <div class="list-beli">Beli Sekarang</div>
+        </div>
+        <div class="list-price">
+          <h5>Buku Digital + Fisik</h5>
+          <h2>Rp250.000</h2>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Buku lengkap</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Akses secara digital</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Buku fisik</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Mendapat pembaruan</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Konsultasi</p>
+          </div>
+          <div class="list">
+            <img src="assets/img/green-check.svg">
+            <p>Dapat diunduh</p>
+          </div>
+          <div class="list-beli">Beli Sekarang</div>
+        </div>
+      </div>
+      <p class="warning">*Buku digital akan dikirimkan ke alamat email kamu *Buku fisik dikirim 7 hari setelah pemesanan</p>
+    </section>
+    <!-- section 7 -->
+    <section class="author">
+      <div class="container author-wrapper">
+        <div class="content-left">
+          <div class="img-section7">
+            <img src="assets/img/big-p.img-section1p.png" alt="Nauval">
+          </div>
+        </div>
+        <div class="content-right">
+          <div class="for-what">
+            <h6>PENULIS BUKU</h6>
+          </div>
+          <h2>Tak kenal maka tak kenal. Berkenalan dengan penulis buku ini</h2>
+          <p>“Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya saya berharap nama ini tidak lagi terdengar asing di telinga kamu sebagai orang yang rajin berbagi hal-hal baik untuk masyarakat, khususnya dalam ilmu komputer. Saya seorang web developer yang masuk kategori apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski begitu, saya lebih senang fokus di front-end development, karena --menurut saya-- ini lebih sederhana saja. Di front-end development pada dasarnya hanya perlu menguasai tiga bahasa: HTML, CSS, dan JavaScript. Sudah jelas ini sederhana, yang bikin ribet itu kamu sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”</p>
+        </div>
+      </div>
+    </section>
+    <!-- section 8 -->
+    <section class="testimonial">
+      <div class="container testimonial-wrapper">
+        <div class="testi-top">
+          <div class="testi-left">
+            <div class="for-what">
+              <div class="rec-small-blue"></div>
+              <h6>TESTIMONIAL</h6>
+            </div>
+            <h2>Apa kata orang-orang yang membaca buku ini?</h2>
+          </div>
+          <div class="testi-right">
+            <p>Kalo seandainya kamu belum percaya dengan buku ini maka tidak apa-apa, karena yang patut kamu percayai adalah Tuhan. Tapi, mungkin beberapa ulasan ini bisa membangkitkan hasratmu untuk membeli buku ini.</p>
+          </div>
+        </div>
+        <div class="testi-bottom">
+          <div class="box-testi-wrapper">
+            <img class="arr-blue-inv" src="assets/img/arrow-blue-full.svg">
+            <div class="box-testi">
+              <p class="testi-text">“Buku ini membantu banget buat kalian yang mau cobain tailwind, lengkap mulai dari instalasi sampai ke penggunaannya. Penjelasannya lengkap & enak dibaca kok :)”</p>
+              <div class="testi-profile">
+                <img src="assets/img/ahmad.png" alt="ahmad">
+                <div class="testi-id">
+                  <h6>Ahmad Saugi</h6>
+                  <p>Mahasiswa</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-testi">
+              <p class="testi-text">“Terimakasih atas bukunya mas. Sangat membantu saya yang masih pemula dalam proses memahami taildwindcss. Isinya cukup lengkap dan detail.”</p>
+              <div class="testi-profile">
+                <img src="assets/img/dedik.png" alt="dedik">
+                <div class="testi-id">
+                  <h6>Dedik Sugiharto</h6>
+                  <p>Front-end Engineer</p>
+                </div>
+              </div>
+            </div>
+            <div class="box-testi">
+              <p class="testi-text">“Sebagai pemula yang tidak memiliki latar belakang pemrograman, buku ini sangat cocok untuk dijadikan referensi belajar. Penjelasannya ringkas tapi mudah dipahami.”</p>
+              <div class="testi-profile">
+                <img src="assets/img/lutfi.png" alt="lutfi">
+                <div class="testi-id">
+                  <h6>Lutfi Hanafiah Ramadhan</h6>
+                  <p>IT Support</p>
+                </div>
+              </div>
+            </div>
+            <img class="arr-blue" src="assets/img/arrow-blue-full.svg">
+          </div>
+        </div>
+        <div class="gulir-box">
+          <div class="gulir gulir-active"></div>
+          <div class="gulir"></div>
+          <div class="gulir"></div>
+          <div class="gulir"></div>
+        </div>
+      </div>
+    </section>
+    <!-- section 9 -->
+    <section class="buy-book">
+      <div class="container buy-book-wrapper">
+        <div class="box-buy">BELI BUKU</div>
+        <h2>Anda ingin segera memesan buku ini?</h2>
+        <p>Otak Kita butuh asupan nutrisi juga, tidak hanya perut saja. </p>
+        <div class="buy-sudah-terjual-wrapper">
+          <div class="content-left">
+            <img src="assets/img/black-download.svg">
+            <div class="harga">
+              <h6>SUDAH TERJUAL</h6>
+              <h3>501,234+</h3>
+            </div>
+          </div>
+          <div class="content-right">
+            <div class="buy-button">
+              <p>Beli sekarang</p>
+              <img src="assets/img/arrow-right-circle.svg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section 10 -->
+    <section class="ready">
+      <div class="container ready-wrapper">
+        <div class="content-left">
+          <h2>Sudah siap meningkatkan skill kamu?</h2>
+          <p>Mulai belajar hari ini di Multinity, atau dapatkan jawaban atas
+            pertanyaan kamu di halaman bantuan.</p>
+        </div>
+        <div class="content-right">
+            <div class="pusat-bantuan-button">Pusat Bantuan</div>
+            <div class="mendaftar-button">Mendaftar</div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="container footer-wrapper">
+        <div class="content-left">
+          <div class="logo-footer"><img src="assets/img/M.svg"></div>
+          <h5>The Malaka</h5>
+          <p>Malaka adalah situs penyedia kursus ilmu komputer berbahasa Indonesia, mulai dari pengembangan hingga desain grafis.</p>
+        </div>
+        <div class="content-right">
+          <ul class="list-footer">
+            <li class="list-bold">PRODUCTS</li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Books</a></li>
+            <li><a href="#">Freebies</a></li>
+            <li><a href="#">Classes</a></li>
+          </ul>
+          <ul class="list-footer">
+            <li class="list-bold">COMPANY</li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Services</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>          
+          <ul class="list-footer">
+            <li class="list-bold">GET IN TOUCH</li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Dribble</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class=" container copy-wrapper">
+        <p>COPYRIGHT &copy; 2022 — <a href="https://www.figma.com/@mhd">DESIGN NAUVAL</a></p>
+      </div>
+    </footer>
+  </body>
+</html> 
